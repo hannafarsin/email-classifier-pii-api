@@ -27,7 +27,6 @@ A deep learning-based project that classifies IT service emails (e.g., **Inciden
 
 ---
 
-## 🗂 Project Structure
 
 # 📧 Email Classification & PII Masking API
 

@@ -7,7 +7,7 @@ A deep learning-based project that classifies IT service emails (e.g., **Inciden
 
 ## 🔍 Features
 
-- ✅ Classifies emails into Incident, Request, or Change
+- ✅ Classifies emails into Incident, Request, or Change.
 - 🔐 Detects and masks PII (Email, Phone, Aadhar, etc.) using regex + NLP
 - 🔁 Restores original PII after classification
 - 🧠 LSTM-based model with tokenizer and label encoder

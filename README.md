@@ -73,8 +73,8 @@ A deep learning-based project that classifies IT service emails (e.g., **Inciden
 
 
 # 1. Clone the repo
-git clone https://github.com/hannafarsin/email-classifier-pii-api.git
-cd email-classifier-pii-api
+- git clone https://github.com/hannafarsin/email-classifier-pii-api.git
+- cd email-classifier-pii-api
 
 # 2. Create and activate virtual environment
 conda create -n email_env python=3.10

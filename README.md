@@ -89,9 +89,9 @@ uvicorn main:app --reload
 # Sample API Request & Response
 ✅ Request
 {
-  "subject": "Urgent: Credit card issue",
-  "body": "Hello, my name is John Doe. My credit card number is 1234 5678 9012 3456 and CVV is 123. Please help!"
-}
+  - "subject": "Urgent: Credit card issue",
+  - "body": "Hello, my name is John Doe. My credit card number is 1234 5678 9012 3456 and CVV is 123. Please help!"
+- }
 
 ✅ Response
 

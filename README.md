@@ -96,27 +96,27 @@ uvicorn main:app --reload
 ✅ Response
 
 {
-  "input_email_body": "Hello, my name is John Doe. My credit card number is 1234 5678 9012 3456 and CVV is 123. Please help!",
-  "masked_email": "Hello, my name is [FULL_NAME]. My credit card number is [CREDIT_DEBIT_NO] and CVV is [CVV_NO]. Please help!",
-  "list_of_masked_entities": [
-    {
-      "position": [18, 26],
-      "classification": "full_name",
-      "entity": "John Doe"
-    },
-    {
-      "position": [51, 70],
-      "classification": "credit_debit_no",
-      "entity": "1234 5678 9012 3456"
-    },
-    {
-      "position": [82, 85],
-      "classification": "cvv_no",
-      "entity": "123"
-    }
-  ],
-  "category_of_the_email": "Incident"
-}
+  - "input_email_body": "Hello, my name is John Doe. My credit card number is 1234 5678 9012 3456 and CVV is 123. Please help!",
+  - "masked_email": "Hello, my name is [FULL_NAME]. My credit card number is [CREDIT_DEBIT_NO] and CVV is [CVV_NO]. Please help!",
+  - "list_of_masked_entities": [
+    - {
+      - "position": [18, 26],
+      - "classification": "full_name",
+      - "entity": "John Doe"
+    - },
+    - {
+      - "position": [51, 70],
+      - "classification": "credit_debit_no",
+      - "entity": "1234 5678 9012 3456"
+    - },
+    - {
+      - "position": [82, 85],
+      - "classification": "cvv_no",
+      - "entity": "123"
+    - }
+  - ],
+  - "category_of_the_email": "Incident"
+- }
 
 # Model Training
 To train or retrain the model:

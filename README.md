@@ -22,7 +22,7 @@ A deep learning-based project that classifies IT service emails (e.g., **Inciden
 | **Model Type**| Bidirectional LSTM (Keras)       |
 | **Input**     | Combined email subject & body    |
 | **Output**    | Email Type (incident/request/...)|
-| **Accuracy**  | ~70% (tunable to 85%+)           |
+| **Accuracy**  | ~75% (tunable to 85%+)           |
 | **Dataset**   | 24,000 labeled support emails    |
 
 ---
